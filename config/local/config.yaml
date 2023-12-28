@@ -1,0 +1,30 @@
+
+system:
+  domain: "videoweb"
+  host: "127.0.0.1"
+  port: "9090"
+
+mysql:
+  userName: "root"
+  mysqlPassword: "123456"
+  dbName: "videoweb"
+  dbHost: "192.168.136.128"
+  dbPort: "3306"
+
+redis:
+  redisHost: "192.168.136.128"
+  redisPort: "6379"
+  redisPassword: "123456"
+  redisDbName: 2
+
+oss:
+  OSS_END_POINT: "xxx"
+  OSS_ACCESS_KEY_ID: "xxx"
+  OSS_ACCESS_KEY_SECRET: "xxx"
+  OSS_BUCKET: "videoweb-test"
+
+email:
+  sender: "1424928981@qq.com"
+  password: "xxx"
+  host: "xxx"
+  addr: "xxx"
